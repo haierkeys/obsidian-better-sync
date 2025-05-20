@@ -25,4 +25,4 @@ If you find this plugin useful and want to support its continued development, yo
 
 ## Sync Service Private Deployment
 
-Please refer to [Fast Note Sync Service](https://github.com/haierkeys/Fast-Sync-Service).
+Please refer to [Fast Note Sync Service](https://github.com/haierkeys/fast-note-sync-service).

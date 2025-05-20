@@ -27,4 +27,4 @@
 
 ## 同步服务私有化部署
 
-请可以参考 [Fast Note Sync Service](https://github.com/haierkeys/Fast-Sync-Service)。
+请可以参考 [Fast Note Sync Service](https://github.com/haierkeys/fast-note-sync-service)。
