@@ -57,7 +57,7 @@ export class SettingTab extends PluginSettingTab {
 
     set.empty()
 
-    // new Setting(set).setName("Fast Sync").setDesc($("FastSync")).setHeading()
+    // new Setting(set).setName("Fast Note Sync").setDesc($("FastSync")).setHeading()
 
     new Setting(set)
       .setName($("启用同步"))
@@ -76,10 +76,10 @@ export class SettingTab extends PluginSettingTab {
     new Setting(set)
       .setName("| " + $("远端"))
       .setHeading()
-      .setClass("fast-sync-settings-tag")
+      .setClass("fast-note-sync-settings-tag")
 
     const root2 = document.createElement("div")
-    root2.className = "fast-sync-settings"
+    root2.className = "fast-note-sync-settings"
     set.appendChild(root2)
 
     const reactRoot2 = createRoot(root2)
@@ -133,7 +133,7 @@ export class SettingTab extends PluginSettingTab {
     new Setting(set)
       .setName("| " + $("支持"))
       .setHeading()
-      .setClass("fast-sync-settings-tag")
+      .setClass("fast-note-sync-settings-tag")
     let y = new Setting(set)
       .setName($("捐赠"))
       .setDesc($("如果您喜欢这个插件，请考虑捐赠以支持继续开发。"))

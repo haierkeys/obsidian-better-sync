@@ -6,7 +6,7 @@ on:
       - "*"
 
 env:
-  PLUGIN_NAME: fast-sync
+  PLUGIN_NAME: fast-note-sync
 
 jobs:
   build:

@@ -1,5 +1,5 @@
 {
-  "name": "Fast Sync",
+  "name": "Fast Note Sync",
   "version": "0.5.1",
   "description": "Can be privately deployed, focused on providing users with undisturbed, silky smooth, multi-end real-time synchronization note synchronization plugin, supporting Mac, Windows, Android, iOS and other platforms, and providing multi-language support.",
   "main": "main.js",

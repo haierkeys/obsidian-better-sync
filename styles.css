@@ -1,53 +1,53 @@
-.fast-sync-settings-tag .setting-item-name{
+.fast-note-sync-settings-tag .setting-item-name{
   color: var(--interactive-accent);
 }
-.fast-sync-settings-openapi {
+.fast-note-sync-settings-openapi {
   width: 100%;
   margin-bottom: 20px;
   border: 1px solid var(--background-modifier-border);
 }
 
-.fast-sync-settings-openapi th,
-.fast-sync-settings-openapi td {
+.fast-note-sync-settings-openapi th,
+.fast-note-sync-settings-openapi td {
   border: 0 !important;
 }
-.fast-sync-settings-openapi th {
+.fast-note-sync-settings-openapi th {
   text-align: left;
   padding: 8px 10px;
   font-size: var(--font-ui-smaller);
 }
-.fast-sync-settings-openapi thead {
+.fast-note-sync-settings-openapi thead {
   border-bottom: 1px solid var(--color-base-40) !important;
 }
-.fast-sync-settings-openapi thead tr th {
+.fast-note-sync-settings-openapi thead tr th {
   background-color: var(--background-secondary);
 }
 
-.fast-sync-settings-openapi thead {
+.fast-note-sync-settings-openapi thead {
   border-bottom: 1px solid var(--color-base-40) !important;
 }
-.fast-sync-settings-openapi tbody tr {
+.fast-note-sync-settings-openapi tbody tr {
   background-color: var(--background-secondary);
 }
-.fast-sync-settings-openapi tbody tr:nth-child(odd) {
+.fast-note-sync-settings-openapi tbody tr:nth-child(odd) {
   background-color: var(--background-secondary-alt);
 }
-.fast-sync-settings-openapi tbody td {
+.fast-note-sync-settings-openapi tbody td {
   padding: 4px 8px;
   font-size: var(--font-ui-small);
 }
-.fast-sync-settings-openapi tfoot td {
+.fast-note-sync-settings-openapi tfoot td {
   padding: 8px 10px;
 }
-.fast-sync-settings-openapi a {
+.fast-note-sync-settings-openapi a {
   color: var(--color-blue);
   text-decoration: none;
 }
-.fast-sync-settings-openapi a:hover {
+.fast-note-sync-settings-openapi a:hover {
   text-decoration: underline;
 }
 
-.fast-sync-settings {
+.fast-note-sync-settings {
   padding: 0.75em 0;
   border-top: 1px solid var(--background-modifier-border);
 }
@@ -109,44 +109,44 @@ display: inline-flex;
     padding-top: 8px;
 }
 
-.fast-sync-settings-table {
+.fast-note-sync-settings-table {
   width: 100%;
   margin-bottom: 20px;
   border: 0 !important;
   background-color: var(--background-secondary);
 }
-.fast-sync-settings-table th,
-.fast-sync-settings-table td {
+.fast-note-sync-settings-table th,
+.fast-note-sync-settings-table td {
   border: 0 !important;
 }
-.fast-sync-settings-table th {
+.fast-note-sync-settings-table th {
   text-align: left;
   padding: 8px 10px;
   font-size: var(--font-ui-smaller);
 }
-.fast-sync-settings-table .no-columns-added {
+.fast-note-sync-settings-table .no-columns-added {
   padding: 15px;
   text-align: center;
   background-color: var(--background-secondary);
 }
-.fast-sync-settings-table .no-columns-added p {
+.fast-note-sync-settings-table .no-columns-added p {
   margin: 4px;
   font-size: 10px;
 }
-.fast-sync-settings-table thead {
+.fast-note-sync-settings-table thead {
   border-bottom: 1px solid var(--color-base-40) !important;
 }
-.fast-sync-settings-table tbody tr {
+.fast-note-sync-settings-table tbody tr {
   background-color: var(--background-secondary);
 }
-.fast-sync-settings-table tbody tr:nth-child(odd) {
+.fast-note-sync-settings-table tbody tr:nth-child(odd) {
   background-color: var(--background-secondary-alt);
 }
-.fast-sync-settings-table tbody td {
+.fast-note-sync-settings-table tbody td {
   padding: 4px 8px;
   font-size: var(--font-ui-small);
 }
-.fast-sync-settings-table tfoot td {
+.fast-note-sync-settings-table tfoot td {
   padding: 8px 10px;
 }
 

@@ -81,7 +81,7 @@ export default class FastSync extends Plugin {
       callback: async () => SyncAllFiles(this),
     })
 
-    // this.addRibbonIcon("loader-circle", "Fast Sync: " + "ssssss", async () => {
+    // this.addRibbonIcon("loader-circle", "Fast Note Sync: " + "ssssss", async () => {
     //   console.log(await this.app.vault.adapter.stat("未命名.md"))
     // })
 
