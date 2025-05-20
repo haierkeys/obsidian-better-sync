@@ -3,7 +3,7 @@ import { lang } from "../lang";
 
 
 export default <lang>{
-  "BetterSync": "Përqendrohuni në ofrimin e një shtojce për sinkronizim shënimesh pa ndërprerje, me një veprim të lëmuar dhe sinkronizim në kohë reale në shumë pajisje, mbështet platformat Mac, Windows, Android, iOS etj., dhe ofron mbështetje për shumë gjuhë.",
+  "FastSync": "Përqendrohuni në ofrimin e një shtojce për sinkronizim shënimesh pa ndërprerje, me një veprim të lëmuar dhe sinkronizim në kohë reale në shumë pajisje, mbështet platformat Mac, Windows, Android, iOS etj., dhe ofron mbështetje për shumë gjuhë.",
   "同步全部笔记(覆盖远端)": "Sinkronizo të gjitha shënimet (mbulo të largëtën)",
   "同步全部笔记": "Sinkronizo të gjitha shënimet",
   "远端": "I largët",
@@ -20,7 +20,7 @@ export default <lang>{
   "启用同步": "Aktivizo sinkronizimin",
   "关闭后您的笔记将不做任何同步": "Pas mbylljes, shënimet tuaja nuk do të sinkronizohen.",
   "远端服务地址": "Adresa e shërbimit të largët",
-  "选择一个 Better-Sync-Service 服务地址": "Zgjidhni një adresë shërbimi Better-Sync-Service",
+  "选择一个 Fast-Sync-Service 服务地址": "Zgjidhni një adresë shërbimi Fast-Sync-Service",
   "输入您的 Image API Gateway 地址": "Vendosni adresën tuaj të API Gateway Image",
   "远端服务令牌": "Shenjë shërbimi i largët",
   "用于远端服务的访问授权令牌": "Token i autorizimit të qasjes për shërbimin e largët",

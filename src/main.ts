@@ -15,7 +15,7 @@ interface EditorChangeTimeout {
   [key: string]: any
 }
 
-export default class BetterSync extends Plugin {
+export default class FastSync extends Plugin {
   settingTab: SettingTab
   wsSettingChange: boolean
   settings: PluginSettings
@@ -81,7 +81,7 @@ export default class BetterSync extends Plugin {
       callback: async () => SyncAllFiles(this),
     })
 
-    // this.addRibbonIcon("loader-circle", "Better Sync: " + "ssssss", async () => {
+    // this.addRibbonIcon("loader-circle", "Fast Sync: " + "ssssss", async () => {
     //   console.log(await this.app.vault.adapter.stat("未命名.md"))
     // })
 

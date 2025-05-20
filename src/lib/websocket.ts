@@ -3,13 +3,13 @@ import { time } from "console";
 
 import { syncReceiveMethodHandlers, SyncAllFiles } from "./fs";
 import { dump, sleep, isWsUrl } from "./helps";
-import BetterSync from "../main";
+import FastSync from "../main";
 
 
 export class WebSocketClient {
   private ws: WebSocket
   private wsApi: string
-  private plugin: BetterSync
+  private plugin: FastSync
   public isOpen: boolean = false
   public isAuth: boolean = false
   public checkConnection: any
@@ -18,7 +18,7 @@ export class WebSocketClient {
   public isSyncAllFilesInProgress: boolean = false
 
   private isRegister: boolean = false
-  constructor(plugin: BetterSync) {
+  constructor(plugin: FastSync) {
     this.plugin = plugin
     this.wsApi = plugin.settings.wsApi
   }

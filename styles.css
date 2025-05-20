@@ -1,53 +1,53 @@
-.better-sync-settings-tag .setting-item-name{
+.fast-sync-settings-tag .setting-item-name{
   color: var(--interactive-accent);
 }
-.better-sync-settings-openapi {
+.fast-sync-settings-openapi {
   width: 100%;
   margin-bottom: 20px;
   border: 1px solid var(--background-modifier-border);
 }
 
-.better-sync-settings-openapi th,
-.better-sync-settings-openapi td {
+.fast-sync-settings-openapi th,
+.fast-sync-settings-openapi td {
   border: 0 !important;
 }
-.better-sync-settings-openapi th {
+.fast-sync-settings-openapi th {
   text-align: left;
   padding: 8px 10px;
   font-size: var(--font-ui-smaller);
 }
-.better-sync-settings-openapi thead {
+.fast-sync-settings-openapi thead {
   border-bottom: 1px solid var(--color-base-40) !important;
 }
-.better-sync-settings-openapi thead tr th {
+.fast-sync-settings-openapi thead tr th {
   background-color: var(--background-secondary);
 }
 
-.better-sync-settings-openapi thead {
+.fast-sync-settings-openapi thead {
   border-bottom: 1px solid var(--color-base-40) !important;
 }
-.better-sync-settings-openapi tbody tr {
+.fast-sync-settings-openapi tbody tr {
   background-color: var(--background-secondary);
 }
-.better-sync-settings-openapi tbody tr:nth-child(odd) {
+.fast-sync-settings-openapi tbody tr:nth-child(odd) {
   background-color: var(--background-secondary-alt);
 }
-.better-sync-settings-openapi tbody td {
+.fast-sync-settings-openapi tbody td {
   padding: 4px 8px;
   font-size: var(--font-ui-small);
 }
-.better-sync-settings-openapi tfoot td {
+.fast-sync-settings-openapi tfoot td {
   padding: 8px 10px;
 }
-.better-sync-settings-openapi a {
+.fast-sync-settings-openapi a {
   color: var(--color-blue);
   text-decoration: none;
 }
-.better-sync-settings-openapi a:hover {
+.fast-sync-settings-openapi a:hover {
   text-decoration: underline;
 }
 
-.better-sync-settings {
+.fast-sync-settings {
   padding: 0.75em 0;
   border-top: 1px solid var(--background-modifier-border);
 }
@@ -109,44 +109,44 @@ display: inline-flex;
     padding-top: 8px;
 }
 
-.better-sync-settings-table {
+.fast-sync-settings-table {
   width: 100%;
   margin-bottom: 20px;
   border: 0 !important;
   background-color: var(--background-secondary);
 }
-.better-sync-settings-table th,
-.better-sync-settings-table td {
+.fast-sync-settings-table th,
+.fast-sync-settings-table td {
   border: 0 !important;
 }
-.better-sync-settings-table th {
+.fast-sync-settings-table th {
   text-align: left;
   padding: 8px 10px;
   font-size: var(--font-ui-smaller);
 }
-.better-sync-settings-table .no-columns-added {
+.fast-sync-settings-table .no-columns-added {
   padding: 15px;
   text-align: center;
   background-color: var(--background-secondary);
 }
-.better-sync-settings-table .no-columns-added p {
+.fast-sync-settings-table .no-columns-added p {
   margin: 4px;
   font-size: 10px;
 }
-.better-sync-settings-table thead {
+.fast-sync-settings-table thead {
   border-bottom: 1px solid var(--color-base-40) !important;
 }
-.better-sync-settings-table tbody tr {
+.fast-sync-settings-table tbody tr {
   background-color: var(--background-secondary);
 }
-.better-sync-settings-table tbody tr:nth-child(odd) {
+.fast-sync-settings-table tbody tr:nth-child(odd) {
   background-color: var(--background-secondary-alt);
 }
-.better-sync-settings-table tbody td {
+.fast-sync-settings-table tbody td {
   padding: 4px 8px;
   font-size: var(--font-ui-small);
 }
-.better-sync-settings-table tfoot td {
+.fast-sync-settings-table tfoot td {
   padding: 8px 10px;
 }
 

@@ -3,7 +3,7 @@ import { lang } from "../lang";
 
 
 export default <lang>{
-  "BetterSync": "Skupia się na dostarczaniu użytkownikom niezakłóconej, jedwabistej płynności, wieloplatformowej, w czasie rzeczywistym synchronizacji notatek, wspiera platformy takie jak Mac, Windows, Android, iOS i oferuje wsparcie dla wielu języków.",
+  "FastSync": "Skupia się na dostarczaniu użytkownikom niezakłóconej, jedwabistej płynności, wieloplatformowej, w czasie rzeczywistym synchronizacji notatek, wspiera platformy takie jak Mac, Windows, Android, iOS i oferuje wsparcie dla wielu języków.",
   "同步全部笔记(覆盖远端)": "Synchronizuj wszystkie notatki (zastępując zdalne)",
   "同步全部笔记": "Synchronizuj wszystkie notatki",
   "远端": "zdalny",
@@ -20,7 +20,7 @@ export default <lang>{
   "启用同步": "Włącz synchronizację",
   "关闭后您的笔记将不做任何同步": "Po zamknięciu Twoje notatki nie będą synchronizowane",
   "远端服务地址": "Zdalny adres serwisu",
-  "选择一个 Better-Sync-Service 服务地址": "Wybierz adres usługi Better-Sync-Service",
+  "选择一个 Fast-Sync-Service 服务地址": "Wybierz adres usługi Fast-Sync-Service",
   "输入您的 Image API Gateway 地址": "Wprowadź adres swojego Image API Gateway",
   "远端服务令牌": "Zdalny token usługi",
   "用于远端服务的访问授权令牌": "Token autoryzacji dostępu do usługi zdalnej",

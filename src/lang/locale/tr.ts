@@ -3,7 +3,7 @@ import { lang } from "../lang";
 
 
 export default <lang>{
-  "BetterSync": "Kullanıcıya rahatsızlık vermeden, ipek gibi pürüzsüz ve çoklu platformda gerçek zamanlı senkronizasyon sağlayan bir not senkronizasyon eklentisi sunmaya odaklanmıştır, Mac, Windows, Android, iOS gibi platformları destekler ve çok dilli destek sunar.",
+  "FastSync": "Kullanıcıya rahatsızlık vermeden, ipek gibi pürüzsüz ve çoklu platformda gerçek zamanlı senkronizasyon sağlayan bir not senkronizasyon eklentisi sunmaya odaklanmıştır, Mac, Windows, Android, iOS gibi platformları destekler ve çok dilli destek sunar.",
   "同步全部笔记(覆盖远端)": "Tüm notları senkronize et (uzaktakini üzerine yaz)",
   "同步全部笔记": "Tüm notları senkronize et",
   "远端": "Uzak uç",
@@ -20,7 +20,7 @@ export default <lang>{
   "启用同步": "Senkronizasyonu Etkinleştir",
   "关闭后您的笔记将不做任何同步": "Kapandıktan sonra notlarınız senkronize edilmeyecek.",
   "远端服务地址": "Uzak sunucu adresi",
-  "选择一个 Better-Sync-Service 服务地址": "Bir Better-Sync-Service hizmet adresi seçin",
+  "选择一个 Fast-Sync-Service 服务地址": "Bir Fast-Sync-Service hizmet adresi seçin",
   "输入您的 Image API Gateway 地址": "Lütfen Image API Gateway adresinizi giriniz.",
   "远端服务令牌": "Uzak hizmet belirteci",
   "用于远端服务的访问授权令牌": "Uzak hizmetler için erişim yetkilendirme belirteci",

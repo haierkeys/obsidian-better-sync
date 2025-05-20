@@ -6,7 +6,7 @@ on:
       - "*"
 
 env:
-  PLUGIN_NAME: better-sync
+  PLUGIN_NAME: fast-sync
 
 jobs:
   build:

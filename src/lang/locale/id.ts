@@ -3,7 +3,7 @@ import { lang } from "../lang";
 
 
 export default <lang>{
-  "BetterSync": "Fokus untuk menyediakan plugin sinkronisasi catatan yang mulus, tanpa gangguan, dan sinkronisasi real-time lintas platform untuk pengguna, mendukung platform seperti Mac, Windows, Android, iOS, dan juga menyediakan dukungan multi-bahasa.",
+  "FastSync": "Fokus untuk menyediakan plugin sinkronisasi catatan yang mulus, tanpa gangguan, dan sinkronisasi real-time lintas platform untuk pengguna, mendukung platform seperti Mac, Windows, Android, iOS, dan juga menyediakan dukungan multi-bahasa.",
   "同步全部笔记(覆盖远端)": "Sinkronkan semua catatan (menimpa jarak jauh)",
   "同步全部笔记": "Menyinkronkan semua catatan",
   "远端": "Jarak jauh",
@@ -20,7 +20,7 @@ export default <lang>{
   "启用同步": "Aktifkan Sinkronisasi",
   "关闭后您的笔记将不做任何同步": "Setelah ditutup, catatan Anda tidak akan disinkronkan sama sekali.",
   "远端服务地址": "Alamat Layanan Jarak Jauh",
-  "选择一个 Better-Sync-Service 服务地址": "Pilih alamat layanan Better-Sync-Service",
+  "选择一个 Fast-Sync-Service 服务地址": "Pilih alamat layanan Fast-Sync-Service",
   "输入您的 Image API Gateway 地址": "Masukkan alamat Gateway API Gambar Anda",
   "远端服务令牌": "Token Layanan Jarak Jauh",
   "用于远端服务的访问授权令牌": "Token otorisasi akses untuk layanan jarak jauh",

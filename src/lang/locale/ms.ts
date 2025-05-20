@@ -3,7 +3,7 @@ import { lang } from "../lang";
 
 
 export default <lang>{
-  "BetterSync": "Fokus untuk menyediakan pemalam penyelarasan nota yang bebas gangguan, licin seperti sutera, dan penyelarasan masa nyata menyeluruh, menyokong platform seperti Mac, Windows, Android, iOS, dan menawarkan sokongan berbilang bahasa.",
+  "FastSync": "Fokus untuk menyediakan pemalam penyelarasan nota yang bebas gangguan, licin seperti sutera, dan penyelarasan masa nyata menyeluruh, menyokong platform seperti Mac, Windows, Android, iOS, dan menawarkan sokongan berbilang bahasa.",
   "同步全部笔记(覆盖远端)": "Menyelaraskan semua nota (menimpa jarak jauh)",
   "同步全部笔记": "Segerakkan semua nota",
   "远端": "Jauh",
@@ -20,7 +20,7 @@ export default <lang>{
   "启用同步": "Aktifkan penyegerakan",
   "关闭后您的笔记将不做任何同步": "Selepas ditutup, nota anda tidak akan disegerakkan.",
   "远端服务地址": "Alamat Perkhidmatan Jauh",
-  "选择一个 Better-Sync-Service 服务地址": "Pilih alamat perkhidmatan Better-Sync-Service",
+  "选择一个 Fast-Sync-Service 服务地址": "Pilih alamat perkhidmatan Fast-Sync-Service",
   "输入您的 Image API Gateway 地址": "Sila masukkan alamat API Gateway Imej anda",
   "远端服务令牌": "Token Perkhidmatan Jauh",
   "用于远端服务的访问授权令牌": "Token kebenaran akses untuk perkhidmatan jauh",

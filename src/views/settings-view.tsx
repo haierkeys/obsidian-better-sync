@@ -1,10 +1,10 @@
-import BetterSync from "src/main";
 import { useState } from "react";
+import FastSync from "src/main";
 
 import { $ } from "../lang/lang";
 
 
-async function getClipboardContent(plugin: BetterSync): Promise<void> {
+async function getClipboardContent(plugin: FastSync): Promise<void> {
   const clipboardReadTipSave = async (api: string, apiToken: string, Vault: string, tip: string) => {
     if (plugin.settings.api != api || plugin.settings.apiToken != apiToken) {
       plugin.wsSettingChange = true
@@ -67,7 +67,7 @@ async function getClipboardContent(plugin: BetterSync): Promise<void> {
   }
 }
 
-export const SettingsView = ({ plugin }: { plugin: BetterSync }) => {
+export const SettingsView = ({ plugin }: { plugin: FastSync }) => {
   return (
     <>
       <div className="setting-item">
@@ -77,7 +77,7 @@ export const SettingsView = ({ plugin }: { plugin: BetterSync }) => {
         </div>
       </div>
       <div>
-        <table className="better-sync-settings-openapi">
+        <table className="fast-sync-settings-openapi">
           <thead>
             <tr>
               <th style={{ textAlign: "center" }}>{$("方式")}</th>
@@ -90,7 +90,7 @@ export const SettingsView = ({ plugin }: { plugin: BetterSync }) => {
               <td style={{ textAlign: "center" }}>{$("私有服务搭建")}</td>
               <td style={{ textAlign: "center" }}>{$("速度好, 自由配置, 无隐私风险")}</td>
               <td>
-                <a href="https://github.com/haierkeys/obsidian-better-sync-service">https://github.com/haierkeys/obsidian-better-sync-service</a>
+                <a href="https://github.com/haierkeys/obsidian-fast-sync-service">https://github.com/haierkeys/obsidian-fast-sync-service</a>
               </td>
             </tr>
           </tbody>

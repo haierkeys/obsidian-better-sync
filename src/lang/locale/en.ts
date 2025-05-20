@@ -3,7 +3,7 @@ import { lang } from "../lang";
 
 
 export default <lang>{
-  "BetterSync": "Focus on providing users with a non-intrusive, silky smooth, multi-platform real-time synchronized note-taking plugin, supporting Mac, Windows, Android, iOS, and offering multi-language support.",
+  "FastSync": "Focus on providing users with a non-intrusive, silky smooth, multi-platform real-time synchronized note-taking plugin, supporting Mac, Windows, Android, iOS, and offering multi-language support.",
   "同步全部笔记(覆盖远端)": "Sync all notes (overwrite remote)",
   "同步全部笔记": "Sync all notes",
   "远端": "Remote",
@@ -20,7 +20,7 @@ export default <lang>{
   "启用同步": "Enable synchronization",
   "关闭后您的笔记将不做任何同步": "After closing, your notes will not be synced.",
   "远端服务地址": "Remote service address",
-  "选择一个 Better-Sync-Service 服务地址": "Choose an Better-Sync-Service address",
+  "选择一个 Fast-Sync-Service 服务地址": "Choose an Fast-Sync-Service address",
   "输入您的 Image API Gateway 地址": "Enter your Image API Gateway address",
   "远端服务令牌": "Remote service token",
   "用于远端服务的访问授权令牌": "Access authorization token for remote services",

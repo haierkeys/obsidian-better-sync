@@ -3,8 +3,8 @@ import { createRoot } from "react-dom/client";
 
 import { SettingsView } from "./views/settings-view";
 import { KofiImage } from "./lib/icons";
-import BetterSync from "./main";
 import { $ } from "./lang/lang";
+import FastSync from "./main";
 
 
 export interface PluginSettings {
@@ -44,9 +44,9 @@ export const DEFAULT_SETTINGS: PluginSettings = {
 }
 
 export class SettingTab extends PluginSettingTab {
-  plugin: BetterSync
+  plugin: FastSync
 
-  constructor(app: App, plugin: BetterSync) {
+  constructor(app: App, plugin: FastSync) {
     super(app, plugin)
     this.plugin = plugin
     this.plugin.clipboardReadTip = ""
@@ -57,7 +57,7 @@ export class SettingTab extends PluginSettingTab {
 
     set.empty()
 
-    // new Setting(set).setName("Better Sync").setDesc($("BetterSync")).setHeading()
+    // new Setting(set).setName("Fast Sync").setDesc($("FastSync")).setHeading()
 
     new Setting(set)
       .setName($("启用同步"))
@@ -76,10 +76,10 @@ export class SettingTab extends PluginSettingTab {
     new Setting(set)
       .setName("| " + $("远端"))
       .setHeading()
-      .setClass("better-sync-settings-tag")
+      .setClass("fast-sync-settings-tag")
 
     const root2 = document.createElement("div")
-    root2.className = "better-sync-settings"
+    root2.className = "fast-sync-settings"
     set.appendChild(root2)
 
     const reactRoot2 = createRoot(root2)
@@ -87,7 +87,7 @@ export class SettingTab extends PluginSettingTab {
 
     const api = new Setting(set)
       .setName($("远端服务地址"))
-      .setDesc($("选择一个 Better-Sync-Service 服务地址"))
+      .setDesc($("选择一个 Fast-Sync-Service 服务地址"))
       .addText((text) =>
         text
           .setPlaceholder($("输入您的 Image API Gateway 地址"))
@@ -133,7 +133,7 @@ export class SettingTab extends PluginSettingTab {
     new Setting(set)
       .setName("| " + $("支持"))
       .setHeading()
-      .setClass("better-sync-settings-tag")
+      .setClass("fast-sync-settings-tag")
     let y = new Setting(set)
       .setName($("捐赠"))
       .setDesc($("如果您喜欢这个插件，请考虑捐赠以支持继续开发。"))

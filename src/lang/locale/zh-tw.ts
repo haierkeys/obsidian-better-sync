@@ -3,7 +3,7 @@ import { lang } from "../lang";
 
 
 export default <lang>{
-  "BetterSync": "專注為使用者提供無打擾、絲般順滑、多端即時同步的筆記同步插件，支持 Mac、Windows、Android、iOS 等平台，並提供多語言支持。",
+  "FastSync": "專注為使用者提供無打擾、絲般順滑、多端即時同步的筆記同步插件，支持 Mac、Windows、Android、iOS 等平台，並提供多語言支持。",
   "同步全部笔记(覆盖远端)": "同步全部筆記(覆蓋遠端)",
   "同步全部笔记": "同步全部筆記",
   "远端": "遠端",
@@ -20,7 +20,7 @@ export default <lang>{
   "启用同步": "啟用同步",
   "关闭后您的笔记将不做任何同步": "關閉後您的筆記將不做任何同步",
   "远端服务地址": "遠端服務地址",
-  "选择一个 Better-Sync-Service 服务地址": "選擇一個 Better-Sync-Service 服務地址",
+  "选择一个 Fast-Sync-Service 服务地址": "選擇一個 Fast-Sync-Service 服務地址",
   "输入您的 Image API Gateway 地址": "輸入您的 Image API Gateway 地址",
   "远端服务令牌": "遠端服務令牌",
   "用于远端服务的访问授权令牌": "用於遠端服務的訪問授權令牌",

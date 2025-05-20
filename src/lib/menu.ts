@@ -1,9 +1,9 @@
-import BetterSync from "../main";
 import { $ } from "../lang/lang";
 import { NoteSync } from "./fs";
+import FastSync from "../main";
 
 
-export const AddRibbonIcon = async function (plugin: BetterSync) {
+export const AddRibbonIcon = async function (plugin: FastSync) {
   clearInterval(plugin.ribbonIconInterval)
   plugin.ribbonIconInterval = setInterval(() => {
     if (plugin.websocket.isOpen != true) {
@@ -11,7 +11,7 @@ export const AddRibbonIcon = async function (plugin: BetterSync) {
         plugin.ribbonIcon.remove()
         plugin.ribbonIconStatus = false
       }
-      plugin.ribbonIcon = plugin.addRibbonIcon("loader-circle",  "Better Sync: " + $("同步全部笔记"), () => {
+      plugin.ribbonIcon = plugin.addRibbonIcon("loader-circle",  "Fast Sync: " + $("同步全部笔记"), () => {
         NoteSync(plugin)
       })
     } else {
@@ -19,7 +19,7 @@ export const AddRibbonIcon = async function (plugin: BetterSync) {
         plugin.ribbonIcon.remove()
         plugin.ribbonIconStatus = true
       }
-      plugin.ribbonIcon = plugin.addRibbonIcon("rotate-cw",  "Better Sync: " + $("同步全部笔记"), () => {
+      plugin.ribbonIcon = plugin.addRibbonIcon("rotate-cw",  "Fast Sync: " + $("同步全部笔记"), () => {
         NoteSync(plugin)
       })
     }
@@ -28,7 +28,7 @@ export const AddRibbonIcon = async function (plugin: BetterSync) {
 
 // export const addCustomStyles = function () {
 //   const style = `
-//             .better-sync-ribbon-icon {
+//             .fast-sync-ribbon-icon {
 //                 animation: rotate 2s linear infinite; /* 旋转动画：2秒一圈，线性，无限循环 */
 //             }
 //             @keyframes rotate {

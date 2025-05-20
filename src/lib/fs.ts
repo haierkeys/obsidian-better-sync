@@ -1,14 +1,14 @@
 import { TFile, TAbstractFile } from "obsidian";
 
 import { timestampToDate, hashContent, stringToDate, dump } from "./helps";
-import BetterSync from "../main";
+import FastSync from "../main";
 
 
 /**
  消息推送操作方法 Message Push Operation Method
  */
 
-export const NoteModify = async function (file: TAbstractFile, plugin: BetterSync) {
+export const NoteModify = async function (file: TAbstractFile, plugin: FastSync) {
   if (!file.path.endsWith(".md")) return
   if (!(file instanceof TFile)) {
     return
@@ -35,7 +35,7 @@ export const NoteModify = async function (file: TAbstractFile, plugin: BetterSyn
   dump(`NoteModify Send`, data.path, data.contentHash, data.mtime, data.pathHash)
 }
 
-export const FileContentModify = async function (file: TAbstractFile, content: string, plugin: BetterSync) {
+export const FileContentModify = async function (file: TAbstractFile, content: string, plugin: FastSync) {
   if (!file.path.endsWith(".md")) return
 
   if (!(file instanceof TFile)) {
@@ -63,7 +63,7 @@ export const FileContentModify = async function (file: TAbstractFile, content: s
   dump(`FileContentModify Send`, data.path, data.contentHash, data.mtime, data.pathHash)
 }
 
-export const NoteDelete = async function (file: TAbstractFile, plugin: BetterSync) {
+export const NoteDelete = async function (file: TAbstractFile, plugin: FastSync) {
   if (!file.path.endsWith(".md")) return
   if (!(file instanceof TFile)) {
     return
@@ -75,7 +75,7 @@ export const NoteDelete = async function (file: TAbstractFile, plugin: BetterSyn
   NoteDeleteByPath(file.path, plugin)
 }
 
-export const NoteDeleteByPath = async function (path: string, plugin: BetterSync) {
+export const NoteDeleteByPath = async function (path: string, plugin: FastSync) {
   if (!path.endsWith(".md")) return
   const data = {
     vault: plugin.settings.vault,
@@ -86,7 +86,7 @@ export const NoteDeleteByPath = async function (path: string, plugin: BetterSync
   dump(`Send NoteDelete`, data.path, data.path, data.pathHash)
 }
 
-export const FileRename = async function (file: TAbstractFile, oldfile: string, plugin: BetterSync) {
+export const FileRename = async function (file: TAbstractFile, oldfile: string, plugin: FastSync) {
   if (!file.path.endsWith(".md")) return
   if (!(file instanceof TFile)) {
     return
@@ -100,7 +100,7 @@ export const FileRename = async function (file: TAbstractFile, oldfile: string, 
   调用动作操作方法  Invoke action operation method
  */
 
-export const OverrideRemoteAllFiles = async function (plugin: BetterSync) {
+export const OverrideRemoteAllFiles = async function (plugin: FastSync) {
   if (plugin.websocket.isSyncAllFilesInProgress) {
     return
   }
@@ -126,7 +126,7 @@ export const OverrideRemoteAllFiles = async function (plugin: BetterSync) {
   NoteSync(plugin)
 }
 
-export const SyncAllFiles = async function (plugin: BetterSync) {
+export const SyncAllFiles = async function (plugin: FastSync) {
   if (plugin.websocket.isSyncAllFilesInProgress) {
     return
   }
@@ -154,7 +154,7 @@ export const SyncAllFiles = async function (plugin: BetterSync) {
   await NoteSync(plugin)
 }
 
-export const NoteSync = async function (plugin: BetterSync) {
+export const NoteSync = async function (plugin: FastSync) {
   while (this.isSyncAllFilesInProgress == true) {
     if (!this.isRegister) {
       return
@@ -188,7 +188,7 @@ interface ReceiveData {
 }
 
 // ReceiveNoteModify 接收文件修改
-export const ReceiveNoteModify = async function (data: any, plugin: BetterSync) {
+export const ReceiveNoteModify = async function (data: any, plugin: FastSync) {
   if (plugin.SyncSkipFiles[data.path] && plugin.SyncSkipFiles[data.path] == data.contentHash) {
     return
   }
@@ -213,7 +213,7 @@ export const ReceiveNoteModify = async function (data: any, plugin: BetterSync) 
   }
 }
 
-export const ReceiveNoteDelete = async function (data: any, plugin: BetterSync) {
+export const ReceiveNoteDelete = async function (data: any, plugin: FastSync) {
   dump(`ReceiveNoteSyncDelete:`, data.action, data.path, data.mtime, data.pathHash)
   const file = plugin.app.vault.getFileByPath(data.path)
   if (file instanceof TFile) {
@@ -223,14 +223,14 @@ export const ReceiveNoteDelete = async function (data: any, plugin: BetterSync) 
   }
 }
 
-export const ReceiveNoteEnd = async function (data: any, plugin: BetterSync) {
+export const ReceiveNoteEnd = async function (data: any, plugin: FastSync) {
   dump(`ReceiveNoteSyncEnd:`, data.vault, data, data.lastTime)
   plugin.settings.lastSyncTime = data.lastTime
   await plugin.saveData(plugin.settings)
   plugin.websocket.isSyncAllFilesInProgress = false
 }
 
-type ReceiveSyncMethod = (data: any, plugin: BetterSync) => void
+type ReceiveSyncMethod = (data: any, plugin: FastSync) => void
 
 export const syncReceiveMethodHandlers: Map<string, ReceiveSyncMethod> = new Map([
   ["NoteSyncModify", ReceiveNoteModify],

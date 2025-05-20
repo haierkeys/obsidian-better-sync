@@ -3,7 +3,7 @@ import { lang } from "../lang";
 
 
 export default <lang>{
-  "BetterSync": "Concentrați-vă pe oferirea utilizatorilor unui plugin de sincronizare a notițelor fără întreruperi, neted ca mătasea, cu sincronizare în timp real pe mai multe platforme, acceptând platformele Mac, Windows, Android, iOS și oferind suport multilingv.",
+  "FastSync": "Concentrați-vă pe oferirea utilizatorilor unui plugin de sincronizare a notițelor fără întreruperi, neted ca mătasea, cu sincronizare în timp real pe mai multe platforme, acceptând platformele Mac, Windows, Android, iOS și oferind suport multilingv.",
   "同步全部笔记(覆盖远端)": "Sincronizați toate notele (suprascrieți distanța)",
   "同步全部笔记": "Sincronizați toate notele",
   "远端": "Distantă",
@@ -20,7 +20,7 @@ export default <lang>{
   "启用同步": "Activare sincronizare",
   "关闭后您的笔记将不做任何同步": "După închidere, notițele dumneavoastră nu vor fi sincronizate.",
   "远端服务地址": "Adresa serviciului la distanță",
-  "选择一个 Better-Sync-Service 服务地址": "Alegeți o adresă de serviciu Better-Sync-Service",
+  "选择一个 Fast-Sync-Service 服务地址": "Alegeți o adresă de serviciu Fast-Sync-Service",
   "输入您的 Image API Gateway 地址": "Introduceți adresa dvs. de Image API Gateway",
   "远端服务令牌": "Token de serviciu la distanță",
   "用于远端服务的访问授权令牌": "Token de autorizare pentru accesul la serviciile remote",

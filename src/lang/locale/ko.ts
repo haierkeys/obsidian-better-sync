@@ -3,7 +3,7 @@ import { lang } from "../lang";
 
 
 export default <lang>{
-  "BetterSync": "사용자에게 방해받지 않고 부드럽고 여러 기기에서 실시간 동기화되는 메모 동기화 플러그인을 제공하며, Mac, Windows, Android, iOS 등의 플랫폼을 지원하고 다국어 지원을 제공합니다.",
+  "FastSync": "사용자에게 방해받지 않고 부드럽고 여러 기기에서 실시간 동기화되는 메모 동기화 플러그인을 제공하며, Mac, Windows, Android, iOS 등의 플랫폼을 지원하고 다국어 지원을 제공합니다.",
   "同步全部笔记(覆盖远端)": "모든 노트 동기화(원격 덮어쓰기)",
   "同步全部笔记": "모든 노트 동기화하기",
   "远端": "원격",
@@ -20,7 +20,7 @@ export default <lang>{
   "启用同步": "동기화 활성화",
   "关闭后您的笔记将不做任何同步": "닫은 후에는 귀하의 노트가 동기화되지 않습니다.",
   "远端服务地址": "원격 서비스 주소",
-  "选择一个 Better-Sync-Service 服务地址": "Better-Sync-Service 서비스 주소 선택",
+  "选择一个 Fast-Sync-Service 服务地址": "Fast-Sync-Service 서비스 주소 선택",
   "输入您的 Image API Gateway 地址": "Image API Gateway 주소를 입력하세요",
   "远端服务令牌": "원격 서비스 토큰",
   "用于远端服务的访问授权令牌": "원격 서비스에 대한 액세스 권한 부여 토큰",

@@ -3,7 +3,7 @@ import { lang } from "../lang";
 
 
 export default <lang>{
-  "BetterSync": "Tập trung cung cấp cho người dùng một plugin đồng bộ ghi chú không phiền nhiễu, mượt mà như lụa và đồng bộ thời gian thực trên nhiều nền tảng, hỗ trợ các nền tảng như Mac, Windows, Android, iOS và cung cấp hỗ trợ đa ngôn ngữ.",
+  "FastSync": "Tập trung cung cấp cho người dùng một plugin đồng bộ ghi chú không phiền nhiễu, mượt mà như lụa và đồng bộ thời gian thực trên nhiều nền tảng, hỗ trợ các nền tảng như Mac, Windows, Android, iOS và cung cấp hỗ trợ đa ngôn ngữ.",
   "同步全部笔记(覆盖远端)": "Đồng bộ tất cả ghi chú (ghi đè từ xa)",
   "同步全部笔记": "Đồng bộ tất cả ghi chú",
   "远端": "Từ xa",
@@ -20,7 +20,7 @@ export default <lang>{
   "启用同步": "Bật đồng bộ hóa",
   "关闭后您的笔记将不做任何同步": "Sau khi đóng, ghi chú của bạn sẽ không được đồng bộ hóa",
   "远端服务地址": "Địa chỉ dịch vụ từ xa",
-  "选择一个 Better-Sync-Service 服务地址": "Chọn một địa chỉ dịch vụ Better-Sync-Service",
+  "选择一个 Fast-Sync-Service 服务地址": "Chọn một địa chỉ dịch vụ Fast-Sync-Service",
   "输入您的 Image API Gateway 地址": "Nhập địa chỉ API Gateway Hình ảnh của bạn",
   "远端服务令牌": "Mã thông báo dịch vụ từ xa",
   "用于远端服务的访问授权令牌": "Mã thông báo ủy quyền truy cập cho dịch vụ từ xa",

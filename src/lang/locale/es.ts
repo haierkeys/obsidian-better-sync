@@ -3,7 +3,7 @@ import { lang } from "../lang";
 
 
 export default <lang>{
-  "BetterSync": "Enfocado en proporcionar al usuario un complemento de sincronización de notas sin interrupciones, con suavidad sedosa y sincronización en tiempo real en múltiples dispositivos, compatible con plataformas como Mac, Windows, Android, iOS, y con soporte multilingüe.",
+  "FastSync": "Enfocado en proporcionar al usuario un complemento de sincronización de notas sin interrupciones, con suavidad sedosa y sincronización en tiempo real en múltiples dispositivos, compatible con plataformas como Mac, Windows, Android, iOS, y con soporte multilingüe.",
   "同步全部笔记(覆盖远端)": "Sincronizar todas las notas (sobrescribir remoto)",
   "同步全部笔记": "Sincronizar todas las notas",
   "远端": "remoto",
@@ -20,7 +20,7 @@ export default <lang>{
   "启用同步": "Habilitar sincronización",
   "关闭后您的笔记将不做任何同步": "Después de cerrar, sus notas no se sincronizarán.",
   "远端服务地址": "Dirección del servicio remoto",
-  "选择一个 Better-Sync-Service 服务地址": "Elige una dirección de servicio de Better-Sync-Service",
+  "选择一个 Fast-Sync-Service 服务地址": "Elige una dirección de servicio de Fast-Sync-Service",
   "输入您的 Image API Gateway 地址": "Ingrese la dirección de su Image API Gateway",
   "远端服务令牌": "Token de servicio remoto",
   "用于远端服务的访问授权令牌": "Token de autorización de acceso para servicios remotos",
